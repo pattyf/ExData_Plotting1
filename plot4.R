@@ -27,6 +27,6 @@ with(d2, {
   legend("topright", pch="-", col = c("black", "red","blue"), legend = names(d2[7:9]))
   
   plot(date_time,Global_reactive_power,type="line", )
-  mtext("Big Plot", outer = TRUE)
+  mtext("Plot 4", outer = TRUE)
 })
 dev.off()
